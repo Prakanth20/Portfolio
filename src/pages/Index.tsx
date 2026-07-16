@@ -16,15 +16,14 @@ import Education from "@/components/sections/Education";
 import Contact from "@/components/sections/Contact";
 
 const Index = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <Loader onDone={() => setLoading(false)} />
+    <div className="min-h-screen bg-background text-foreground cursor-none-desktop">
+      {loading && <Loader onDone={() => setLoading(false)} />}
 
       <ParticleNetwork />
-
-       <CustomCursor />
+      <CustomCursor />
 
       <div className="relative z-10">
         <Navbar />
