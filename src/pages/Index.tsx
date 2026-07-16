@@ -20,11 +20,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* <Loader onDone={() => setLoading(false)} /> */}
+      <Loader onDone={() => setLoading(false)} />
 
-      {/* <ParticleNetwork /> */}
+      <ParticleNetwork />
 
-      {/* <CustomCursor /> */}
+       <CustomCursor />
 
       <div className="relative z-10">
         <Navbar />
