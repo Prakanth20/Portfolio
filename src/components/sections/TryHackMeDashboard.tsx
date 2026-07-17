@@ -54,7 +54,7 @@ const TryHackMeDashboard = () => {
               <div className="flex items-center gap-5">
 
                 <img
-                  src="public/1000105413.png"
+                  src={`${import.meta.env.BASE_URL}1000105413.png`} 
                   alt="Prakanth"
                   className="w-28 h-28 rounded-full border-4 border-cyan-500 object-cover"
                   />

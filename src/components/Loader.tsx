@@ -23,7 +23,7 @@ const Loader = ({ onDone }: { onDone: () => void }) => {
     return () => cancelAnimationFrame(raf);
   }, [onDone]);
 
-  const filled = Math.floor(progress / 5);
+  const filled = Math.max(0, Math.min(20, Math.floor(progress / 5)));
 
   return (
     <div
@@ -37,7 +37,9 @@ const Loader = ({ onDone }: { onDone: () => void }) => {
         </p>
         <div className="text-accent text-base md:text-lg tracking-widest mb-3">
           {"█".repeat(filled)}
-          <span className="text-border">{"░".repeat(20 - filled)}</span>
+            <span className="text-border">
+          {"░".repeat(Math.max(0, 20 - filled))}
+            </span>
         </div>
         <p className="text-xs text-muted-foreground/70">{Math.floor(progress)}%</p>
       </div>
