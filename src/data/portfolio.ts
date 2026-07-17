@@ -13,7 +13,7 @@ export const profile = {
   location: "Chennai, Tamilnadu, India",
   email: "prakanthvijayakumar20@gmail.com",
   phone: "+91 95979 39844",
-  resumeUrl: "/${BASE}Prakanth V.pdf", // drop your resume file into /public and update this path
+  resumeUrl: '/${BASE}Prakanth V.pdf', // drop your resume file into /public and update this path
   socials: {
     github: "https://github.com/Prakanth20",
     linkedin: "https://www.linkedin.com/in/prakanth-v-9316252a4/",
