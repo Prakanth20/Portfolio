@@ -2,7 +2,7 @@
 //  EDIT THIS FILE to personalize the portfolio with your info.
 //  This is the ONLY file you need to touch for content changes.
 // ─────────────────────────────────────────────────────────────
-
+const BASE = import.meta.env.BASE_URL;
 export const profile = {
   name: "Prakanth V",
   role: "Cyber Security Student",
@@ -13,7 +13,7 @@ export const profile = {
   location: "Chennai, Tamilnadu, India",
   email: "prakanthvijayakumar20@gmail.com",
   phone: "+91 95979 39844",
-  resumeUrl: "/Prakanth V.pdf", // drop your resume file into /public and update this path
+  resumeUrl: "/${BASE}Prakanth V.pdf", // drop your resume file into /public and update this path
   socials: {
     github: "https://github.com/Prakanth20",
     linkedin: "https://www.linkedin.com/in/prakanth-v-9316252a4/",
