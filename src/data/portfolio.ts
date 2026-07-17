@@ -474,7 +474,7 @@ export const certificates: Certificate[] = [
   { name: "Career Essentials in Generative AI by Microsoft and LinkedIn", issuer: "Linkedin", year: "2025", image: `${BASE}MS AI.jpeg` },
   { name: "Career Essentials in Cybersecurity by Microsoft and Linkedin", issuer: "Linkedin", year: "2025", image: `${BASE}MS CS.jpeg` },
   { name: "Trust and Security with Google Cloud", issuer: "Google Cloud", year: "2025", image: `${BASE}Trust.jpeg` },
-  { name: "Data Analystics and Data Visualization with Power BI", issuer: "Doie India", year: "2024", image: `${BASE}Power BI.jpeg` },
+  { name: "Data Analystics and Data Visualization with Power BI", issuer: "Doie India", year: "2024", image: `${BASE}Power Bi.jpeg` },
 ];
 
 export type EducationItem = {
