@@ -284,6 +284,16 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Enterprise Android Malware Application Analysis Platform",
+    description:
+      "A comprehensive Android malware analysis platform that performs static and dynamic APK analysis, integrates MobSF and Frida for security assessment, supports YARA-based malware detection, AI-powered threat summarization, automated report generation, and provides an interactive web dashboard for enterprise-scale mobile application security analysis.",
+    stack: ["Python", "Flask", "React", "Android", "MobSF", "Frida", "ADB", "YARA", "Machine Learning", "Docker"],
+    category: "Mobile Security",
+    difficulty: "Advanced",
+    githubUrl:
+      "https://github.com/Prakanth20/Enterprise-Android-Malware-Application-Analysis-Platform",
+  },
+  {
     title: "MOTW Bypass",
     description:
       "A Windows security research project demonstrating techniques to bypass the Mark of the Web (MOTW) protection mechanism for security awareness, malware analysis, and defensive research.",
