@@ -414,12 +414,13 @@ export const projects: Project[] = [
 
 export type Certificate = {
   name: string;
-  issuer:  "Google Coursera" | "TryHackMe" | "Cisco Network Academy" | "Udemy" | "ISC2" | "TheXSSRat" | "Red Team Leaders" | "Hack & Fix" | "CappricioSec University" | "VibeSecurity" | "Forage" | "Google Cloud" | string;
+  issuer:  "SAP" | "Google Coursera" | "TryHackMe" | "Cisco Network Academy" | "Udemy" | "ISC2" | "TheXSSRat" | "Red Team Leaders" | "Hack & Fix" | "CappricioSec University" | "VibeSecurity" | "Forage" | "Google Cloud" | string;
   year: string;
   image?: string; // path in /public/certificates
 };
 
 export const certificates: Certificate[] = [
+  { name: "SAP BTP Adminstrator", issuer: "SAP", year: "2026", image: '${BASE}SAP BTP.png' },
   { name: "Google CyberSecurity Professional Certificate", issuer: "Google coursera", year: "2025", image: `${BASE}Google .jpeg` },
   { name: "Certified Ethical Hacker (v12)", issuer: "Google coursera", year: "2025", image: `${BASE}CEH(V12).jpeg` },
   { name: "Pre Security", issuer: "TryHackMe", year: "2025", image: `${BASE}Pre Security.jpeg` },
@@ -468,8 +469,8 @@ export const certificates: Certificate[] = [
   { name: "Cyber Security & Ethical Hacking", issuer: "CappricioSec University", year: "2025", image: `${BASE}CSE.jpeg` },
   { name: "CAPIE - Certified API Hacking Expert", issuer: "TheXSSRat", year: "2025", image: `${BASE}CAPIE.jpeg` },
   { name: "Certified Red Team Operations Management (CRTOM)", issuer: "Red Team Leaders", year: "2025", image: `${BASE}CRTOM.jpeg` },
-  { name: "Windows API for Red Team Introduction", issuer: "Red Team Leaders", year: "2025", image: `${BASE}Windows API.jpeg` },
-  { name: "Offensive Development Introduction for Windows v1", issuer: "Red Team Leaders", year: "2025", image: `${BASE}Offensive Windows.jpeg` },
+  { name: "Windows API for Red Team Introduction", issuer: "Red Team Leaders", year: "2025", image: `${BASE}Windows API.png` },
+  { name: "Offensive Development Introduction for Windows v1", issuer: "Red Team Leaders", year: "2025", image: `${BASE}Offensive Windows.png` },
   { name: "Networking", issuer: "Infosys Springboard", year: "2025", image: `${BASE}Networking.jpeg` },
   { name: "Hands-on Web Penetration Testing with Metasploit 4.x", issuer: "Infosys Springboard", year: "2025", image: `${BASE}WPT.jpeg` },
   { name: "Artificial Intelligence", issuer: "Infosys Springboard", year: "2025", image: `${BASE}AI.jpeg` },
