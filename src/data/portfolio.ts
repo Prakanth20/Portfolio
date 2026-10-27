@@ -421,6 +421,7 @@ export type Certificate = {
 
 export const certificates: Certificate[] = [
   { name: "SAP BTP Adminstrator", issuer: "SAP", year: "2026", image: `${BASE}SAPBTP.png`  },
+  { name: "SAP Certified - SAP Business Al Platform Administrator", issuer: "SAP", year: "2026", image: `${BASE}SAP.png`},
   { name: "Google CyberSecurity Professional Certificate", issuer: "Google coursera", year: "2025", image: `${BASE}Google .jpeg` },
   { name: "Certified Ethical Hacker (v12)", issuer: "Google coursera", year: "2025", image: `${BASE}CEH(V12).jpeg` },
   { name: "Pre Security", issuer: "TryHackMe", year: "2025", image: `${BASE}Pre Security.jpeg` },
