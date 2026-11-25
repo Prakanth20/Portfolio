@@ -414,13 +414,12 @@ export const projects: Project[] = [
 
 export type Certificate = {
   name: string;
-  issuer:  "SAP" | "Google Coursera" | "TryHackMe" | "Cisco Network Academy" | "Udemy" | "ISC2" | "TheXSSRat" | "Red Team Leaders" | "Hack & Fix" | "CappricioSec University" | "VibeSecurity" | "Forage" | "Google Cloud" | string;
+  issuer:  "SAP" | "Google Coursera" | "TryHackMe" | "OPSWAT" | "Cisco Network Academy" | "Udemy" | "ISC2" | "TheXSSRat" | "Red Team Leaders" | "Hack & Fix" | "CappricioSec University" | "VibeSecurity" | "Forage" | "Google Cloud" | string;
   year: string;
   image?: string; // path in /public/certificates
 };
 
 export const certificates: Certificate[] = [
-  { name: "SAP BTP Adminstrator", issuer: "SAP", year: "2026", image: `${BASE}SAPBTP.png`  },
   { name: "SAP Certified - SAP Business Al Platform Administrator", issuer: "SAP", year: "2026", image: `${BASE}SAP.png`},
   { name: "Google CyberSecurity Professional Certificate", issuer: "Google coursera", year: "2025", image: `${BASE}Google .jpeg` },
   { name: "Certified Ethical Hacker (v12)", issuer: "Google coursera", year: "2025", image: `${BASE}CEH(V12).jpeg` },
@@ -436,6 +435,7 @@ export const certificates: Certificate[] = [
   { name: "Web Application Pentesting", issuer: "TryHackMe", year: "2025", image: `${BASE}WAP.jpeg` },
   { name: "Advanced Endpoint Investigation", issuer: "TryHackMe", year: "2025", image: `${BASE}Advanced Endpoint.jpeg` },
   { name: "Endpoint Security", issuer: "Cisco Network Academy", year: "2025", image: `${BASE}ES.jpeg` },
+  { name: "Cybersecurity Fundamentals Associate(OCFA)", issuer: "OPSWAT", year:"2026", image:`${BASE}CFS.png` },
   { name: "Junior Cybersecurity Analyst Career Path Exam", issuer: "Cisco Network Academy", year: "2025", image: `${BASE}Jr Cyber Analyst.jpeg` },
   { name: "Network Defense", issuer: "Cisco Network Academy", year: "2025", image: `${BASE}ND.jpeg` },
   { name: "Networking Device and Initial Configuration", issuer: "Cisco Network Academy", year: "2025", image: `${BASE}Network DC.jpeg` },
